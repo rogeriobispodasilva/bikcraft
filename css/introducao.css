@@ -1,0 +1,43 @@
+.introducao-bg{
+    background-color: #000000;
+}
+.introducao{
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 40px;
+}
+.introducao-conteudo{
+    align-self: end;
+}
+.introducao-conteudo h1{
+    font-size: 64px;
+    line-height: 1.125;
+    margin-bottom: 32px;
+}
+.introducao-conteudo p{
+    font-size: 24px;
+    line-height: 1.5;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+.introducao-conteudo a{
+    display: inline-block;
+    padding: 16px 24px;
+    margin-bottom: 120px;
+    background-color: #FFBB00;
+    border-radius: 5px;
+    color: #332200;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 700;
+}
+.introducao img{
+    border-radius: 5px;
+}
