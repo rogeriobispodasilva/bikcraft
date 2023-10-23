@@ -24,7 +24,7 @@
     color: #ffffff;
     font-size: 18px;
     display: inline-block;
-    /* position: relative; */
+    position: relative;
     
 }
 .header-menu a::after{
@@ -32,13 +32,13 @@
     display: block;
     height: 2px;
     background-color: #ffffff;
-    max-width: 0%;
+    width: 0%;
     margin-top: 4px;
     transition: 0.3s;
-    /* position: absolute; */
+    position: absolute;
 }
 .header-menu a:hover:after{
-   max-width: 100%;
+   width: 100%;
 }
 
 

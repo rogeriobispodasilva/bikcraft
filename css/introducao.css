@@ -1,5 +1,6 @@
 .introducao-bg{
     background-color: #000000;
+    box-shadow: inset 0px -120px #ffffff;
 }
 .introducao{
     color: #fff;
@@ -15,7 +16,7 @@
 }
 .introducao-conteudo{
     align-self: end;
-    margin-bottom: 80px;
+    margin-bottom: 200px;
 }
 .introducao-conteudo h1{
     font-size: 64px;
@@ -47,6 +48,40 @@
 .introducao-conteudo a:hover{
     background: linear-gradient(#FFB60d, #e59317);
 }
-.introducao img{
+.introducao-img img{
     border-radius: 5px;
+    object-fit: cover;
+}
+
+
+@media (max-width:1200px){
+    .introducao-conteudo h1{
+        font-size: 56px;
+    }
+    .introducao-conteudo p{
+        font-size: 20px;
+    }
+}
+@media (max-width:1000px){
+    .introducao-bg{
+        padding-top: 80px;
+    }
+    .introducao{
+        grid-template-columns: 1fr;
+    
+    }
+    .introducao-conteudo{
+        margin-bottom: 0px;
+    }
+    .introducao-conteudo h1{
+        font-size: 48px;
+    }
+    .introducao-conteudo p{
+        font-size: 20px;
+    }
+    .introducao-conteudo a{
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    
 }
