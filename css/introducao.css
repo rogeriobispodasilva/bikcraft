@@ -22,6 +22,9 @@
     line-height: 1.125;
     margin-bottom: 32px;
 }
+.introducao-conteudo h1 span{
+    color:#FFBF00
+}
 .introducao-conteudo p{
     font-size: 24px;
     line-height: 1.5;
