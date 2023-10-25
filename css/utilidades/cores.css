@@ -1,0 +1,75 @@
+:root {
+    --cor-c00: #ffffff
+    --cor-c01: #F7F7F7
+    --cor-c02: #EDEDED
+    --cor-c03: #DEDEDE
+    --cor-c04: #CCCCCC
+    --cor-c05: #B3B3B3
+    --cor-c06: #9C9C9C
+    --cor-c07: #707070
+    --cor-c08: #595959
+    --cor-c09: #404040
+    --cor-c10: #2E2E2E
+    --cor-c11: #121212
+    --cor-c12: #000000
+    --cor-p01: #FFBB00
+    --cor-p02: #E5A40B
+    --cor-p03: #A66E00
+    --cor-p04: #664400
+    --cor-p05: #332200
+}
+
+.cor-c00{
+    color: #ffffff
+}
+.cor-c01{
+    color: #F7F7F7
+}
+.cor-c02{
+    color: #EDEDED
+}
+.cor-c03{
+    color: #DEDEDE
+}
+.cor-c04{
+    color: #CCCCCC
+}
+.cor-c05{
+    color: #B3B3B3
+}
+.cor-c06{
+    color: #9C9C9C
+}
+.cor-c07{
+    color: #707070
+}
+.cor-c08{
+    color: #595959
+}
+.cor-c09{
+    color: #404040
+}
+.cor-c10{
+    color: #2E2E2E
+}
+.cor-c11{
+    color: #121212
+}
+.cor-c12{
+    color: #000000
+}
+.cor-p01{
+    color: #FFBB00
+}
+.cor-p02{
+    color: #E5A40B
+}
+.cor-p03{
+    color: #A66E00
+}
+.cor-p04{
+    color: #664400
+}
+.cor-p05{
+    color: #332200
+}

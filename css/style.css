@@ -3,6 +3,7 @@
 @import url(././global/header.css);
 
 /* utilidades */
+@import url(./utilidades/cores.css);
 @import url(./utilidades/componentes.css);
 
 /* home */
