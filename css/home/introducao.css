@@ -1,9 +1,8 @@
 .introducao-bg{
-    background-color: var(--cor-c10);
-    box-shadow: inset 0px -120px #ffffff;
+    background-color: var(--cor-c12);
+    box-shadow: inset 0px -120px var(--cor-c00);
 }
 .introducao{
-    color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1200px;
@@ -14,6 +13,7 @@
     gap: 40px;
     padding: 0px 20px;
 }
+   
 .introducao-conteudo{
     align-self: end;
     margin-bottom: 200px;
@@ -25,17 +25,15 @@
     font-family: 'Poppins';
     font-weight: 600; 
 }
-.introducao-conteudo h1 span{
-    color:#FFBF00
-}
+
 .introducao-conteudo p{
     font-size: 24px;
     line-height: 1.5;
-    color: #ccc;
     margin-bottom: 20px;
     font-family: "Roboto";
     font-weight: 400; 
 }
+    
 
 .introducao img{
     width: 100%;
@@ -57,7 +55,7 @@
 @media (max-width:900px){
     .introducao-bg{
         padding-top: 80px;
-        box-shadow: inset 0 -60px #fff;
+        box-shadow: inset 0 -60px;
     }
     .introducao{
         grid-template-columns: 1fr;
