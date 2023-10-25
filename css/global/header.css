@@ -25,7 +25,8 @@
     font-size: 18px;
     display: inline-block;
     position: relative;
-    
+    font-family: 'Poppins';
+    font-weight: 400;   
 }
 .header-menu a::after{
     content: "";
@@ -65,5 +66,10 @@
     .header-menu a{
         padding: 8px 12px;
         font-size: 14px;
+    }
+}
+@media (max-width:500px){
+    .header{
+        flex-direction: column;
     }
 }
