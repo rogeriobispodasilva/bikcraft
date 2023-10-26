@@ -1,0 +1,35 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--cor-p01);
+}
+.depoimento-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.depoimento-conteudo {
+  padding: 80px;
+  place-self: center;
+}
+.depoimento-conteudo p {
+  font-family: "Merriweather";
+  max-width: 32ch;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+  }
+  .depoimento-imagem img {
+    height: 400px;
+  }
+}
+@media (max-width: 700px) {
+  .depoimento-conteudo {
+    padding: 24px;
+  }
+}

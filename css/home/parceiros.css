@@ -1,0 +1,33 @@
+.parceiros {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.parceiros h2 {
+  margin-bottom: 60px;
+}
+.parceiros ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1400;
+  margin: 0px 20px;
+}
+.parceiros li {
+  display: flex;
+  padding: 32px;
+}
+.parceiros img {
+  margin: auto;
+}
+@media (max-width: 800px) {
+  .parceiros h2 {
+    margin-bottom: 24px;
+  }
+  .parceiros ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .parceiros li {
+    padding: 24px;
+  }
+}
