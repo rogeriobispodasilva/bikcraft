@@ -22,13 +22,13 @@
   font: 400 1.5rem/1.5 "Roboto";
 }
 .font-2-l-b {
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.225rem;
 }
 @media (max-width: 800px) {
   .font-2-l-b {
-    font: 600 1rem/1.5 "Roboto";
+    font: 500 1rem/1.5 "Roboto";
   }
 }
 @media (max-width: 1200px) {
@@ -40,16 +40,11 @@
 .font-1-m-b {
   font: 400 1.125rem/1.35 "Poppins";
 }
-@media (max-width: 600px) {
-  .font-1-m {
-    font: 400 0.875rem/1.45 "Poppins";
-  }
-}
 .font-1-m-b {
   font-weight: 600;
 }
 .font-2-m {
-  font: 600 1.125rem/1.35 "Roboto";
+  font: 500 1.125rem/1.35 "Roboto";
 }
 .font-1-s {
   font: 400 1rem/1.5 "Poppins";
@@ -60,6 +55,6 @@
 .font-2-xs {
   font: 400 0.875rem/1.45 "Roboto";
 }
-.font-2-xs {
+.font-1-xs {
   font: 600 0.75rem/1.35 "Poppins";
 }
