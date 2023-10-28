@@ -6,6 +6,7 @@
   padding: 0px 20px;
 }
 
+/* botao primario */
 .botao {
   display: inline-block;
   padding: 16px 24px;
@@ -48,6 +49,7 @@
   }
 }
 
+/* botao secundario */
 .link {
   display: inline-block;
   font: 600 1.5rem/1.5 "Poppins";
@@ -68,5 +70,20 @@
 @media (max-width: 800px) {
   .link {
     font: 600 1rem/1.5 "Poppins";
+  }
+}
+
+/* titulo-bg */
+.titulo-bg {
+  background-color: var(--cor-c11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.titulo-bg span {
+  margin-bottom: 8px;
+}
+@media (max-width: 900px) {
+  .titulo-bg span {
+    font-size: 1rem;
   }
 }

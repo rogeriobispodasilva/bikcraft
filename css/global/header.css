@@ -62,4 +62,7 @@
   .header {
     flex-direction: column;
   }
+  .header-menu {
+    flex-direction: column;
+  }
 }
