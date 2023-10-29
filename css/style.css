@@ -15,10 +15,13 @@
 @import url(./home/depoimento.css);
 
 /* bicicletas */
+@import url(./bicicletas/bicicletas.css);
 @import url(./bicicletas/bicicletas-lista.css);
 
 /* seguros */
 @import url(./seguros/seguros.css);
+@import url(./seguros/vantagens.css);
+@import url(./seguros/perguntas.css);
 
 /* termos */
 @import url(./termos/termos.css);
