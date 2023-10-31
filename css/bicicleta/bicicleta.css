@@ -76,6 +76,9 @@
 .ficha-conteudo li:last-child {
   border-bottom: initial;
 }
+.ficha-conteudo span {
+  color: var(--cor-c06);
+}
 
 @media (max-width: 900px) {
   .bicicleta {
