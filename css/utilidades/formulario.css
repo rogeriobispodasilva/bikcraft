@@ -1,0 +1,43 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.form label {
+  display: block;
+  margin-bottom: 4px;
+  font: 600 1rem/1.5 "Poppins", sans-serif;
+}
+.form input[type="text"],
+.form input[type="email"],
+form .input[type="telefone"],
+.form textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  background-color: var(--cor-c01);
+  border: 1px solid var(--cor-c02);
+  padding: 12px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+form .input[type="telefone"]:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: var(--cor-p01);
+  background-color: var(--cor-c00);
+  box-shadow: 0 0 0 2px #fea;
+}
+.form .col-2 {
+  grid-column: 1/-1;
+}
+
+@media (max-width: 800px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+  .form .col-2 {
+    grid-column: 1;
+  }
+}

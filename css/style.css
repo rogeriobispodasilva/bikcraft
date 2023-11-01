@@ -29,3 +29,10 @@
 
 /* termos */
 @import url(./termos/termos.css);
+
+/* contato */
+@import url(./contato/contato.css);
+@import url(./contato/lojas.css);
+
+/* formulario */
+@import url(./utilidades/formulario.css);
