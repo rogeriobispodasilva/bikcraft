@@ -34,5 +34,8 @@
 @import url(./contato/contato.css);
 @import url(./contato/lojas.css);
 
+/* orçamento */
+@import url(./orçamento/orçamento.css);
+
 /* formulario */
 @import url(./utilidades/formulario.css);

@@ -1,0 +1,36 @@
+#orçamento {
+  background: linear-gradient(var(--cor-c11) 600px, var(--cor-c01) 0px);
+}
+.orçamento {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  padding-bottom: 120px;
+}
+.orçamento h2 {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+}
+/* .orçamento h2::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 8px;
+  background-color: var(--cor-p01);
+  left: -12px;
+  position: absolute;
+} */
+.orçamento-produto,
+.orçamento-dados {
+  padding: 60px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.orçamento-produto {
+  background-color: var(--cor-c12);
+  border-radius: 5px 0px 0px 5px;
+}
+.orçamento-dados {
+  background-color: var(--cor-c00);
+  border-radius: 0px 5px 5px 0px;
+}
