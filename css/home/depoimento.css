@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   background-color: var(--cor-p01);
   align-items: center;
+  /* padding: 20px; */
 }
 .depoimento-imagem img {
   width: 100%;
