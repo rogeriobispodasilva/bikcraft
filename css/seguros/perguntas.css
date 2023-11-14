@@ -14,21 +14,25 @@
 .perguntas div:hover {
   background-color: var(--cor-c02);
 }
-.perguntas div dt {
+.perguntas div button {
   display: grid;
   grid-template-columns: auto 1fr auto;
   gap: 8px;
   align-items: center;
   margin-bottom: 16px;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
 }
-.perguntas div dt::before {
+.perguntas div button::before {
   content: "";
   display: inline-block;
   width: 12px;
   height: 8px;
   background-color: var(--cor-p01);
 }
-.perguntas div dt::after {
+.perguntas div button::after {
   content: "";
   display: inline-block;
   width: 12px;
@@ -36,8 +40,15 @@
   background: url(../../img/icones/seta-abrir.svg);
   transition: 0.3s;
 }
-.perguntas div dt:hover:after {
+.perguntas div button:hover:after,
+.perguntas div button[aria-expanded="true"]::after {
   transform: rotate(180deg);
+}
+.perguntas div dd {
+  display: none;
+}
+.perguntas div dd.ativa {
+  display: block;
 }
 .perguntas div dd {
   max-width: 80ch;
